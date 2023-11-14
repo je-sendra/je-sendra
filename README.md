@@ -1,10 +1,10 @@
-<h2 align="left">Hi 👋! My name is Josep and I am a developer from Spain</h2>
 
-###
+<h3>About me</h3>
 
+```yml
+name: Josep Sendra
 
-
-<img align="right" height="150" src="https://avatars.githubusercontent.com/je-sendra"  />
+```
 
 ###
 
