@@ -1,12 +1,34 @@
-
-<h3>About me</h3>
+<div align="center">
+  <h2>About Me 🧑‍💻</h2>
+</div>
 
 ```yml
 name: Josep Sendra
-
+location: Spain
+founder_of: VewTech
+current_job: Fullstack Developer @ EVER-SI
+fields_of_interest:
+  [
+    "Web Development",
+    "Open Source",
+    "Backend",
+    "UI/UX",
+    "Game Development",
+    "DevOps"
+  ]
+hobbies:
+  [
+    "Gaming",
+    "Movies",
+    "Collectionism"
+  ]
 ```
 
-###
+<div align="center">
+  <h2>Tech Stack ⌨️</h2>
+</div>
+
+<br>
 
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="30" alt="csharp logo"  />
@@ -54,7 +76,24 @@ name: Josep Sendra
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="30" alt="vscode logo"  />
 </div>
 
-###
+<br>
+
+<div align="center">
+  <h2>Trophies 🏆</h2>
+</div>
+
+<br>
+
+<div align="center">
+  
+[![trophy](https://github-profile-trophy.vercel.app/?username=je-sendra)](https://github.com/ryo-ma/github-profile-trophy)
+</div>
+
+<br>
+
+<div align="center">
+  <h2>Social Media📱</h2>
+</div>
 
 <div align="center">
   <a href="https://www.linkedin.com/in/josep-sendra-serra/" target="_blank">
@@ -71,14 +110,18 @@ name: Josep Sendra
   </a>
 </div>
 
-###
-
-<br clear="both">
-
 <div align="center">
   <a href="https://open.spotify.com/user/z8f16a8lmakdf3fnpolfijamy">
     <img src="https://spotify-recently-played-readme.vercel.app/api?user=z8f16a8lmakdf3fnpolfijamy&count=5&unique=true" alt="Spotify recently played"  />
   </a>
 </div>
 
-###
+<br>
+
+<div align="center">
+  <h2>A Little Joke 😜</h2>
+</div>
+
+<div align="center">
+  <img src="https://readme-jokes.vercel.app/api" alt="Jokes Card" />
+</div>
