@@ -5,6 +5,7 @@
 ```yml
 name: Josep Sendra
 location: Spain
+foss_level: Enthusiast
 founder_of: VewTech
 current_job: Fullstack Developer @ EVER-SI
 fields_of_interest:
