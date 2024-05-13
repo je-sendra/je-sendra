@@ -6,7 +6,7 @@
 name: Josep Sendra
 location: Spain
 foss_level: Enthusiast
-current_job: Fullstack Developer @ EVER-SI
+current_job: Fullstack Developer @ IMAGINA ITS
 fields_of_interest:
   [
     "Web Development",
