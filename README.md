@@ -41,18 +41,6 @@ hobbies:
 
 <br>
 
-<div class="meter">
-  <span style="width: 70%;">HTML</span>
-</div>
-<div class="meter">
-  <span style="width: 50%;">CSS</span>
-</div>
-<div class="meter">
-  <span style="width: 90%;">JavaScript</span>
-</div>
-
-<br>
-
 
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="30" alt="csharp logo"  />
@@ -157,44 +145,3 @@ hobbies:
 <div align="center">
   <img src="https://readme-jokes.vercel.app/api" alt="Jokes Card" />
 </div>
-
-<!-- INTERNAL CSS -->
-
-<style>
-  body {
-      font-family: Arial, sans-serif;
-  }
-
-  .meter {
-      background-color: #f3f3f3;
-      border-radius: 25px;
-      padding: 3px;
-      margin: 15px 0;
-      box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
-  }
-
-  .meter > span {
-      display: block;
-      height: 20px;
-      border-radius: 20px;
-      background-color: #4caf50;
-      text-align: center;
-      color: white;
-      line-height: 20px;
-      position: relative;
-      overflow: hidden;
-  }
-
-  .meter > span::before {
-      content: attr(style);
-      position: absolute;
-      right: 10px;
-      top: 0;
-      bottom: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-      white-space: nowrap;
-  }
-</style>
