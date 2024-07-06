@@ -1,6 +1,14 @@
-<div align="center">
-  <h2>About Me 🧑‍💻</h2>
-</div>
+
+<!-- TODO: (Optional) fix document to be markdown compliant (see suppressed warnings in .markdownlint.json 
+            Also make it better style-wise and remove all the br tags -->
+
+<!-- ABOUT ME SECTION -->
+
+<html>
+  <div align="center">
+    <h2>About Me 🧑‍💻</h2>
+  </div>
+</html>
 
 ```yml
 name: Josep Sendra
@@ -11,11 +19,11 @@ main_foss_project: IntelliDev
 fields_of_interest:
   [
     "Web Development",
-    "Open Source",
+    "Open Source (Libre)",
+    "DevOps",
     "Backend",
     "UI/UX",
-    "Game Development",
-    "DevOps"
+    "Game Development"
   ]
 hobbies:
   [
@@ -25,11 +33,26 @@ hobbies:
   ]
 ```
 
+<!-- TECH STACK SECTION -->
+
 <div align="center">
   <h2>Tech Stack ⌨️</h2>
 </div>
 
 <br>
+
+<div class="meter">
+  <span style="width: 70%;">HTML</span>
+</div>
+<div class="meter">
+  <span style="width: 50%;">CSS</span>
+</div>
+<div class="meter">
+  <span style="width: 90%;">JavaScript</span>
+</div>
+
+<br>
+
 
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="30" alt="csharp logo"  />
@@ -81,6 +104,8 @@ hobbies:
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="30" alt="vscode logo"  />
 </div>
 
+<!-- GITHUB TROPHIES SECTION -->
+
 <br>
 
 <div align="center">
@@ -96,6 +121,8 @@ hobbies:
 
 <br>
 
+<!-- SOCIAL MEDIA SECTION -->
+
 <div align="center">
   <h2>Social Media📱</h2>
 </div>
@@ -104,24 +131,24 @@ hobbies:
   <a href="https://www.linkedin.com/in/josep-sendra-serra/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
   </a>
-  <a href="mailto:je.sendra@vewtech.net" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Outlook&logo=microsoft-outlook&label=&color=0078D4&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="microsoft-outlook logo"  />
-  </a>
-  <a href="https://stackoverflow.com/users/19748675" target="_blank">
+
+  <!-- Hidden StackOverflow while I build a rep -->
+  <!-- <a href="https://stackoverflow.com/users/19748675" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Stackoverflow&logo=stackoverflow&label=&color=FE7A16&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="stackoverflow logo"  />
-  </a>
-</div>
+  </a> 
+</div> -->
 
-<!--
-
-<div align="center">
+<!-- Hidden spotify for privacy reasons -->
+<!-- <div align="center">
   <a href="https://open.spotify.com/user/z8f16a8lmakdf3fnpolfijamy">
     <img src="https://spotify-recently-played-readme.vercel.app/api?user=z8f16a8lmakdf3fnpolfijamy&count=5&unique=true" alt="Spotify recently played"  />
-  </a>
+  </a> -->
+
 </div>
 
--->
 <br>
+
+<!-- FUNNY FUN JOKE SECTION -->
 
 <div align="center">
   <h2>A Little Joke 😜</h2>
@@ -130,3 +157,44 @@ hobbies:
 <div align="center">
   <img src="https://readme-jokes.vercel.app/api" alt="Jokes Card" />
 </div>
+
+<!-- INTERNAL CSS -->
+
+<style>
+  body {
+      font-family: Arial, sans-serif;
+  }
+
+  .meter {
+      background-color: #f3f3f3;
+      border-radius: 25px;
+      padding: 3px;
+      margin: 15px 0;
+      box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+  }
+
+  .meter > span {
+      display: block;
+      height: 20px;
+      border-radius: 20px;
+      background-color: #4caf50;
+      text-align: center;
+      color: white;
+      line-height: 20px;
+      position: relative;
+      overflow: hidden;
+  }
+
+  .meter > span::before {
+      content: attr(style);
+      position: absolute;
+      right: 10px;
+      top: 0;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      white-space: nowrap;
+  }
+</style>
