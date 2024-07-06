@@ -7,6 +7,7 @@ name: Josep Sendra
 location: Spain
 foss_level: Enthusiast
 current_job: Fullstack Developer @ IMAGINA ITS
+main_foss_project: IntelliDev
 fields_of_interest:
   [
     "Web Development",
