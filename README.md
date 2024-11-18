@@ -15,7 +15,11 @@ name: Josep Sendra
 location: Spain
 foss_level: Enthusiast
 current_job: .NET Developer @ MAF RODA SL
-main_foss_project: IntelliDev
+main_foss_projects:
+  [
+     "IntelliDev",
+     "Charwiki"
+  ]
 fields_of_interest:
   [
     "Web Development",
