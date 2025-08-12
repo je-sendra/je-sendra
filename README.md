@@ -17,8 +17,8 @@ foss_level: Enthusiast
 current_job: .NET Developer @ MAF RODA AGROBOTIC SL
 main_foss_projects:
   [
-     "IntelliDev",
-     "Charwiki"
+     "Charwiki",
+     "AutoTime"
   ]
 fields_of_interest:
   [
